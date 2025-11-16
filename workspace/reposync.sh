@@ -17,7 +17,7 @@ cd android-kernel
 git config --global color.ui false
 
 # Initialized manifest
-repo init -u https://github.com/cd-Crypton/android_kernel_realme_sm6225-manifest -b android-13
+repo init -u https://github.com/a02-trial/platform_manifest_twrp_aosp -b tw11
 
 # Sync all repository inside the manifest
 repo sync
