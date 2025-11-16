@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if [ -f android-kernel/out/android-4.19-stable/dist/Image.gz ]; then
+if [ -f android-kernel/out/android-4.14-stable/dist/Image.gz ]; then
     echo "Kernel exist, copying..."
-    cd android-kernel/out/android-4.19-stable/dist/
+    cd android-kernel/out/android-4.14-stable/dist/
     cp -r Image.gz ../../../AnyKernel3
     echo "Preparing AnyKernel3 zip..."
     cd ../../../AnyKernel3
